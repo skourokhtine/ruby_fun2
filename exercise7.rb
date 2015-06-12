@@ -19,9 +19,9 @@ puts
 
 students.each do |key, value|
 		(value = value * 1.05)
-		puts "#{key}: #{value}"		
-end
+		puts "#{key}: #{value}"	 #how to save this new value?
 
+end
 puts 
 
 students.delete(:cohort2)
@@ -29,7 +29,9 @@ students.each do |key, value|
     puts "#{key}: #{value}"
 end
 
-#why in the code above I had repeat the do action?
+# missing the calculator. review with instructors.
+
+
 
 
 
